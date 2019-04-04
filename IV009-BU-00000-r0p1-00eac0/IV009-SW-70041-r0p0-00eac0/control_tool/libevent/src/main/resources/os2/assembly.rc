@@ -1,0 +1,7 @@
+#include <windows.h>
+#ifdef __x86_64
+1 RT_MANIFEST assembly-ia64.manifest
+#endif
+#ifdef _X86_
+1 RT_MANIFEST assembly-x86.manifest
+#endif

@@ -1,0 +1,25 @@
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION 2,0,22,0
+    PRODUCTVERSION 2,0,22,0
+    FILEOS VOS__WINDOWS32
+    FILETYPE VFT_DLL
+    FILESUBTYPE VFT2_UNKNOWN
+{
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0809, 1252
+    }
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904E4"
+        {
+            VALUE "LegalCopyright", "Copyright (c) 2012 Niels Provos and Nick Mathewson"
+            VALUE "FileDescription", ""
+            VALUE "OriginalFilename", "libevent.dll"
+            VALUE "ProductName", "libevent"
+            VALUE "ProductVersion", "2.0.22"
+        }
+    }
+}

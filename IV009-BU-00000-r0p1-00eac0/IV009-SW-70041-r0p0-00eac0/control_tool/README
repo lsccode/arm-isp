@@ -1,0 +1,14 @@
+To build this software please run:
+
+make TOOLCHAIN=/path/to/your/toolchain TRIPLET=your-target-triplet
+
+You may as well optionally use:
+
+CFLAGS=<your-gcc-flags>
+CXXFLAGS=<your-g++-flags>
+LDFLAGS=<your-linker-flags>
+
+with limited set of compiler or linker flags.
+
+If you just run `make` this software will be built natively by your system compiler.
+

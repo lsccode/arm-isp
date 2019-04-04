@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <assemblyIdentity type="win32" name="libevent" version="2.0.22.0" processorArchitecture="ia64"/>
+    <file name="libevent.dll"/>
+</assembly>
